@@ -1,0 +1,10 @@
+/config/modules/
+/config/.west/config
+/config/tools/
+/config/zephyr/
+/config/bootloader/
+/.idea
+/modules/hal/atmel/
+/build/CMakeFiles/cmake.check_cache
+/build/
+/config/build/

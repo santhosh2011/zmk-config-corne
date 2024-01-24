@@ -12,8 +12,7 @@
 
 &led_strip {
     chain-length = <27>;
-    color-mapping = <LED_COLOR_ID_BLUE>;
-};
+       };
 
 / {
 
