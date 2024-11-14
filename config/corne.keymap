@@ -21,8 +21,9 @@
       lh_pht: home_row_left_mod_tap {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <150>;
-            quick-tap-ms = <0>;
+    tapping-term-ms = <200>;
+    quick-tap-ms = <200>;
+    require-prior-idle-ms = <125>;
             flavor = "tap-preferred";
         bindings = <&kp>, <&kp>;
       };
@@ -30,8 +31,9 @@
       rh_pht: home_row_right_mod_tap {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <150>;
-            quick-tap-ms = <0>;
+    tapping-term-ms = <200>;
+    quick-tap-ms = <200>;
+    require-prior-idle-ms = <125>;
             flavor = "tap-preferred";
         bindings = <&kp>, <&kp>;
       };
